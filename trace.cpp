@@ -2,6 +2,8 @@
 #include <stdio.h> 
 #include <math.h>
 
+// comment from sahsa
+
 typedef unsigned char uchar;
 
 struct uchar4 {
