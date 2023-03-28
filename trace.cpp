@@ -11,12 +11,16 @@ struct uchar4 {
 	uchar w;		// a
 };
 
+
+
 struct vec3 {
 	double x;
 	double y;
 	double z;
+	double w;
 };
 
+//cecre
 double dot(vec3 a, vec3 b) {
 	return a.x * b.x + a.y * b.y + a.z * b.z;
 }
